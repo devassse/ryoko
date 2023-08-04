@@ -1,5 +1,4 @@
 .base-app {
-  min-width: 600px;
   background-color: #bbe6f9;
   min-height: 100vh;
   display: flex;
@@ -44,6 +43,8 @@
   grid-template-columns: 20fr 55fr 25fr;
   position: absolute;
   transform: rotate(-0.2deg);
+  overflow-y: auto;
+
 }
 
 .aside-left-menu {

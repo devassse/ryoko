@@ -1,7 +1,7 @@
-import logo from "./assets/imgs/ryoko-256.png";
-import profile from "./assets/profile/perfil.jpg";
-import user1 from "./assets/imgs/social/user-1.png"
-import user2 from "./assets/imgs/social/user-2.png"
+import logo from "../../assets/imgs/ryoko-256.png";
+import profile from "../../assets/profile/perfil.jpg";
+import user1 from "../../assets/imgs/social/user-1.png"
+import user2 from "../../assets/imgs/social/user-2.png"
 import "./App.css";
 import env from "react-dotenv";
 

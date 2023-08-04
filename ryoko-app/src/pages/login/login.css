@@ -1,0 +1,92 @@
+.base-login {
+    background-color: #bbe6f9;
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.base-login .main-logo {
+    width: 200px;
+}
+.base-login .base-app {
+    height: 20vh;
+    background-color: #bbe6f9;
+    color: white;
+
+}
+.base-login .base-level-1 {
+    width: 40%;
+    min-width: 300px;
+    height: 40vh;
+    background-color: #bbe6f9bf;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transform: rotate(-0.2deg);
+    margin-top: -40vh;
+  }
+  .base-login .base-level-2 {
+    width: 99.8%;
+    height: 40vh;
+    background-color: #b2e3f9;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    transform: rotate(0.2deg);
+  }
+  .base-login .main-level-login {
+    width: 99.6%;
+    border-radius: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    color: #0a5cae;
+    transform: rotate(-0.2deg);
+
+    /* display: none; */
+  }
+
+  .base-login .main-level-login input,
+  .base-login .main-level-login button {
+    padding: 3%;
+    border: 1px solid #0a5cae;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+
+  .base-login .main-level-register {
+    width: 99.6%;
+    border-radius: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    color: #0a5cae;
+    transform: rotate(-0.2deg);
+
+    display: none;
+  }
+
+  .base-login .main-level-register input,
+  .base-login .main-level-register button {
+    padding: 3%;
+    border: 1px solid #0a5cae;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  .first-last-names{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .first-last-names input {
+    flex-grow: 1;
+  }
+
+  .account-verification{
+    text-align: right;
+  }
+  
+  
