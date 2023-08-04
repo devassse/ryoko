@@ -23,7 +23,7 @@ Chosen Tech Stack (amoung some sugested)
  * NodeJs (Express) - for backEnd
 And for Database (there was no sugestion), used mySQL.
 
-("Wanted to use mongoDB, just for Javascript encosystem, but, there is no time for that.")
+("Wanted to use mongoDB, just for Javascript ecosystem, but, there is no time for that.")
 
 Then, 
 Started the project, beginning with frontEnd,
