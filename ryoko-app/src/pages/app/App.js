@@ -1,7 +1,7 @@
 import logo from "../../assets/imgs/ryoko-256.png";
 import profile from "../../assets/profile/perfil.jpg";
-import user1 from "../../assets/imgs/social/user-1.png"
-import user2 from "../../assets/imgs/social/user-2.png"
+import user1 from "../../assets/imgs/social/user-1.png";
+import user2 from "../../assets/imgs/social/user-2.png";
 import "./App.css";
 import env from "react-dotenv";
 
@@ -436,9 +436,12 @@ function App() {
                     <h5>110,000M Habitants</h5>
                     <h6>23ºC now</h6>
                   </div>
-                  
                 </div>
                 <div className="best-locations">
+                  <div className="last-visited">
+                    <h4>Last Visited</h4>
+                    <span className="caption">Loved visiting this places, saved them for Next time</span>
+                  </div>
                   <div className="best-location">
                     <div className="best-location-icon"></div>
                     <div className="best-location-description">
@@ -546,25 +549,27 @@ function App() {
                 </div>
                 <div className="my-socials">
                   <h4>My Social Media</h4>
-                  <span className="caption">My best friends, my life companions</span>
+                  <span className="caption">
+                    My best friends, my life companions
+                  </span>
                   <div className="socials">
                     <div className="social">
-                      <img src={user1} alt="User 1"/>
+                      <img src={user1} alt="User 1" />
                     </div>
                     <div className="social">
-                    <img src={user2} alt="User 1"/>
+                      <img src={user2} alt="User 1" />
                     </div>
                     <div className="social">
-                      <img src={user1} alt="User 1"/>
+                      <img src={user1} alt="User 1" />
                     </div>
                     <div className="social">
-                    <img src={user2} alt="User 1"/>
+                      <img src={user2} alt="User 1" />
                     </div>
                     <div className="social">
-                      <img src={user1} alt="User 1"/>
+                      <img src={user1} alt="User 1" />
                     </div>
                     <div className="social">
-                    <img src={user2} alt="User 1"/>
+                      <img src={user2} alt="User 1" />
                     </div>
                   </div>
                 </div>

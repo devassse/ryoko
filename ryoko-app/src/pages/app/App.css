@@ -134,6 +134,9 @@
   justify-content: center;
   gap: 10px;
 }
+.last-visited {
+  grid-column: 1/-1;
+}
 .best-location {
   display: flex;
   align-items: center;
@@ -200,6 +203,11 @@
   border-radius: 10px;
 }
 
+
+.my-favorites {
+  padding: 6% 0;
+}
+
 .favorites {
   margin-top: 10px;
   display: grid;
@@ -216,6 +224,11 @@
 .caption {
   font-size: 12px;
   font-style: italic;
+}
+
+
+.my-socials {
+  padding: 3% 0;
 }
 .socials{
   display: flex;
