@@ -1,0 +1,245 @@
+.base-app {
+  background-color: #bbe6f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5%;
+}
+.base-level-1 {
+  width: 86%;
+  min-width: 820px;
+  height: 80vh;
+  background-color: #bbe6f9bf;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: rotate(-0.2deg);
+}
+.base-level-2 {
+  width: 99.8%;
+  height: 79.6vh;
+  background-color: #b2e3f9;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: rotate(0.2deg);
+}
+.main-level {
+  width: 99.6%;
+  height: 79vh;
+  background-color: #fff;
+  border-radius: 1rem;
+  /* color: #1493e0; */
+  color: #0a5cae;
+  display: grid;
+  grid-template-columns: 20fr 55fr 25fr;
+  position: absolute;
+  transform: rotate(-0.2deg);
+  overflow-y: auto;
+
+}
+
+.aside-left-menu {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside-left-menu ul {
+  list-style: none;
+  text-align: center;
+}
+.aside-left-menu ul a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h1 {
+  font-size: 2.2rem;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.menu ul li {
+  display: block;
+  padding: 0.6rem 0;
+  margin: 1px 0;
+  border-radius: 1rem;
+  transition: all .3s;
+  
+}
+.menu ul li:hover,
+.menu ul li.active {
+  background-color: #eaf8ff;
+  cursor: pointer;
+}
+.menu ul li:hover a {
+  color: #1493e0;
+}
+.menu ul li a {
+  display: inline-block;
+}
+
+.main-content {
+  background-color: #eaf8ff;
+  border-radius: 1rem;
+  padding: 5%;
+  overflow-y: auto;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #bbe6f9;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+  padding: 4% 0;
+}
+.location-card {
+  flex-grow: 1;
+  min-width: 10vw;
+  height: 20vh;
+  background-color: #bbe6f9bf;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 0.8rem;
+  margin-bottom: 4%;
+}
+.best-locations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10px;
+}
+.last-visited {
+  grid-column: 1/-1;
+}
+.best-location {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 10px;
+  background-color: #ffffff5f;
+  padding: 1px 4px;
+}
+.best-location-icon{
+  width: 40px;
+  height: 40px;
+  background-color: #0a5cae;
+  border-radius: 5px;
+}
+.best-location-description {
+  display: flex;
+  flex-direction: column;
+}
+.best-location-price{
+  align-self: flex-end;
+}
+
+
+
+
+
+
+.aside-right-user-info {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+.user-names {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.my-scheduler h4 {
+  padding: 3% 0;
+}
+
+.schedulers{
+  display: flex;
+  flex-direction: column;
+}
+.scheduler {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2% 4%;
+  margin: 5px 0;
+  background-color: #eaf8ff;
+  border-radius: 10px;
+}
+
+
+.my-favorites {
+  padding: 6% 0;
+}
+
+.favorites {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.favorite {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bbe6f9;
+  padding: 2% 4%;
+  border-radius: 10px;
+}
+.caption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+
+.my-socials {
+  padding: 3% 0;
+}
+.socials{
+  display: flex;
+  margin: 2% 0;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: -15px;
+}
+.social img {
+  width: 50px;
+}
